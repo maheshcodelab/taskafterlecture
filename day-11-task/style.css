@@ -1,0 +1,61 @@
+@font-face {
+    font-family: f1;
+    src: url(./BeautifulPeoplePersonalUse-dE0g.ttf);
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'BeautifulPeople', Arial, sans-serif;
+
+}
+
+
+
+html,
+body {
+    height: 0;
+    width: 0;
+
+
+}
+
+main {
+    height: 100vh;
+    width: 100vw;
+    background-color: lightblue;
+    background-image: url(https://images.pexels.com/photos/28936833/pexels-photo-28936833.jpeg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding: 80px;
+
+}
+
+h1 {
+    color: white;
+    font-family: f1;
+    text-transform: capitalize;
+    font-size: 70px;
+
+}
+
+button{
+    color: white;
+    padding: 20px 40px;
+    border: 2px solid white;
+    background-color: transparent;
+    font-weight: 500;
+    font-size: 15px;
+    border-radius: 10px;
+
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+}
