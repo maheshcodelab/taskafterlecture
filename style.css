@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -6,12 +6,45 @@
 }
 
 html,
-body{
+body {
     height: 100%;
     width: 100%;
     background-color: black;
 
-    
+}
+
+main {
+    padding-top: 50px;
+    height: 100%;
+    width: 100%;
+    background-color: #0D1117;
 
 }
 
+h1 {
+    margin: 0px 200px;
+    padding: 10px 0px;
+    background-color: rgb(58, 21, 21);
+    text-align: center;
+    border: none;
+    /* border: 2px solid white; */
+    border-radius: 10px;
+    font-size: 50px;
+    color: white;
+    text-transform: capitalize;
+    font-weight: 700;
+
+}
+
+.task {
+    margin: 20px 200px;
+    padding: 30px;
+    background-color: rgb(58, 21, 21);
+    border: none;
+    border-radius: 10px;
+    font-size: 30px;
+    color: white;
+    text-transform: capitalize;
+    font-weight: 700;
+
+}
